@@ -67,6 +67,8 @@ ul{
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
    justify-items: center;
    justify-content: space-between;
    margin-top: 30px;
@@ -128,4 +130,27 @@ ul{
     font-weight: 700;
     color: #787885;
     margin-left: 15px;
+}
+
+/* footer section style */
+
+footer{
+    height: 240px;
+    background-color: rgb(23, 0, 39);
+    color: white;
+}
+.footer-content{
+    
+height: 140px;
+width: 262px;
+margin-left: 589px;
+margin-right: 589px;
+justify-content: space-around;
+
+}
+
+.footer-tittle{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
 }

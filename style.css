@@ -16,7 +16,9 @@ main{
 .first-section{
     display: flex;
    align-items: center;
-  
+  justify-items: self-end;
+  margin-left: 120px;
+  margin-bottom: 170px;
 }
 .first-pro-detail{
     height: 270px;
@@ -40,14 +42,34 @@ main{
     height: 415px;
     width: 440px;
     margin-left: 130px;
+    margin-right: 165px;
 }
+/* hr section */
+hr{
+    border: 1px solid lightsteelblue;
+ 
+}
+ul{   
+     margin-top: 30px;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
 
+}
 /* product section */
 .product-sec{
    height: 1665px;
    width: 1050px;
-  margin-top: 380px;
+  margin-top: 100px;
   margin-left: 200px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
 }
 .product-sec-heading{
     text-align: center;

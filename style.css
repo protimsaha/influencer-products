@@ -1,0 +1,41 @@
+main{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav start */
+
+.nav-tittle{
+    font-size: 24px ;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: 87px;
+}
+
+/* first-section */
+
+.first-section{
+    display: flex;
+   align-items: center;
+}
+.first-pro-detail{
+    height: 270px;
+    width: 580px;
+    margin-left: 120px;
+}
+.first-sec-heading{
+    font-size: 52px;
+    font-weight: 700;
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    border: 0px;
+    font-size: 1.2em;
+    padding: 10px  20px;
+    border-radius: 40px;
+}
+.first-sec-photo{
+    height: 415px;
+    width: 440px;
+    margin-left: 130px;
+}

@@ -33,7 +33,7 @@ main{
 }
 .first-pro-detail:hover{
     transform: scale(1.2);
-    transition: transform 1s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 
 .first-sec-heading{
@@ -57,7 +57,7 @@ main{
 }
 .first-sec-photo:hover{
     transform: scale(1.2);
-    transition: transform 1s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 /* hr section */
 hr{

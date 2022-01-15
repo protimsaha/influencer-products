@@ -18,6 +18,7 @@ main{
     display: flex;
    align-items: center;
   justify-items: self-end;
+  flex-direction: row;
   margin-left: 120px;
   margin-bottom: 170px;
 }
@@ -29,9 +30,12 @@ main{
     height: 270px;
     width: 580px;
     margin-left: 120px;
-
-
 }
+.first-pro-detail:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
 .first-sec-heading{
     font-size: 52px;
     font-weight: 700;
@@ -50,6 +54,10 @@ main{
     width: 440px;
     margin-left: 130px;
     margin-right: 165px;
+}
+.first-sec-photo:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
 }
 /* hr section */
 hr{
@@ -163,10 +171,15 @@ ul{
     margin-top: 100px;
    
 }
+
 .mega-sell-detail{
     height: 225px;
     width: 580px;
     margin-left: 0%;
+}
+.mega-sell-tittle{
+    font-size: 38px;
+    font-weight: 700;
 }
 .mega-sell-button{
     text-decoration: none;

@@ -1,6 +1,7 @@
 main{
     font-family: 'Poppins', sans-serif;
-  
+  margin-left: 0%;
+  margin-right: 0%;
 }
 /* nav start */
 
@@ -47,13 +48,14 @@ main{
 /* hr section */
 hr{
     border: 1px solid lightsteelblue;
+    width: 1210px;
  
 }
 ul{   
      margin-top: 30px;
     display: flex;  
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
 
 }
@@ -106,6 +108,19 @@ ul{
     margin-bottom: 0%;
     margin-left: 15px;
 }
+.button2{
+    text-decoration: none;
+    background-color: white;
+    margin-left: 900px;
+    margin-top: 50px;
+    color: #E02C6DDE;
+    border: 0px;
+    font-size: 1.2em;
+    padding: 10px, 0px;
+    height: 25px;
+    width: 150px;
+   
+}
 /* only rating style */
 .product-rating{
     display: flex;
@@ -132,12 +147,42 @@ ul{
     margin-left: 15px;
 }
 
+/* mega-sell-section */
+.mega-sell{
+    display: flex;
+    height: 270px;
+    width: 1110px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+   
+}
+.mega-sell-detail{
+    height: 225px;
+    width: 580px;
+    margin-left: 0%;
+}
+.mega-sell-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    border: 0px;
+    font-size: 1.2em;
+    padding: 10px  20px;
+    border-radius: 40px;
+}
+.mega-sell-photo img{
+    height: 270px;
+    width: 505px;
+    margin-left: 15%;
+}
 /* footer section style */
 
 footer{
     height: 240px;
     background-color: rgb(23, 0, 39);
     color: white;
+    margin-top: 100px;
 }
 .footer-content{
     
@@ -146,11 +191,19 @@ width: 262px;
 margin-left: 589px;
 margin-right: 589px;
 justify-content: space-around;
-
+justify-content: space-between;
 }
 
 .footer-tittle{
     font-size: 25px;
     font-weight: 700;
     color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-content .footer-text{
+    justify-items: center;
+    font-size: 14px;
+    color: #D9DBE1;
+    font-weight: 700;
 }
